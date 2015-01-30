@@ -26,7 +26,7 @@ public class MemoriaInterna extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_memoria_externa);
+        setContentView(R.layout.activity_memoria_interna);
 
         cajaTexto = (EditText)findViewById(R.id.cajaTexto);
         botonGuardar = (Button)findViewById(R.id.botonGuardar);
